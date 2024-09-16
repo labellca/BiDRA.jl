@@ -6,7 +6,7 @@ using Turing, MCMCChains
 include("functions.jl")
 
 
-function inferMetrics(logConc::Array, percentResp::Array, isAscending::Int)
+function inferMetrics(logConc::Array, percentResp::Array, isAscending::Bool)
     local HDRmixture
     local LDRμ
   
