@@ -1,0 +1,17 @@
+name = "BiDRA"
+uuid = "ff057b31-eb2b-44f0-980b-b82e5e27b102"
+authors = ["Caroline Labelle", "Sébastien Lemieux"]
+version = "1.0.0-DEV"
+
+[deps]
+MCMCChains = "c7f686f2-ff18-58e9-bc7b-31028e88f75d"
+Turing = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
+
+[compat]
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
